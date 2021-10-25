@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+  <body>
 <?php
 function justgon1($ww) {
 mt_srand( (double)microtime() * 1000000000000000000 );
@@ -30,3 +33,5 @@ $api = array(
 $rdimg = json_encode($api, JSON_UNESCAPED_SLASHES);
 print($rdimg); 
 ?>
+    </body>
+  </html>
